@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for header */
+.header {
+    background-color: #E32633;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.main {
+    margin: 20px;
+}
+
+
+#monFormulaire {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+textarea, input[type="date"], select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: #E32633;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.ajouter-addtolist {
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin: 5Orem;
+    justify-content: center;
+
+    
+}
+
+h2{
+    display: flex;
+    align-items: center;
+   
+}
